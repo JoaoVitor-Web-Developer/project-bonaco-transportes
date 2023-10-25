@@ -1,0 +1,248 @@
+@media (max-width: 1190px) {
+  .navbar {
+    display: flex;
+    position: fixed;
+    top: 15px;
+    right: 5%;
+    padding: 15px 18px 15px 18px;
+    font-size: 22px;
+    text-align: center;
+    color: #00349b;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #fff;
+    z-index: 1;
+    transition: 0.3s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .aNav {
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    transition: 0.5s;
+    padding: 15px 18px 15px 18px;
+  }
+
+  .btnNav {
+    display: none;  
+  }
+
+  .navbar:hover {
+    color: #ffdf00;
+    transform: scale(105%);
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #00349b;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: 0.5s;
+  }
+
+  .sidenav a {
+    padding: 28px 8px 8px 22px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+
+  .sidenav a:hover {
+    color: #ffdf00;
+    transform: scale(105%);
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  #main {
+    transition: margin-left 0.5s;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-container {
+    display: flex;
+    align-items: center;
+    background: #ffffff00;
+    padding: 10px 0;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .logo {
+    margin: -5px 0 0 10px;
+    width: 230px; 
+    height: auto;
+  }
+
+  .valor {
+    min-height: 75vh;
+  }
+
+  .valor-container {
+    flex-direction: column;
+  }
+
+  .valor-container img {
+    margin-right: auto;
+    margin-top: 90px;
+    width: auto;
+    height: 420px;
+  }
+
+  .tituloValor {
+    width: 280px;
+    font-size: 35px;
+    color: #FFDF00;
+  }
+
+  .documentacaoText {
+    font-size: 18px;
+    margin: 20px 20px;
+  }
+  
+  .documentacaoText h3 {
+    font-size: 12px;
+    margin: 15px 0;
+  }
+  
+  .frotaText {
+    font-size: 18px;
+    margin: 20px 20px;
+  }
+  
+  .frotaText h3 {
+    font-size: 12px;
+    margin: 15px 0;
+  }
+
+  .transportes {
+    min-height: 75vh;
+  }
+
+  .seguranca {
+    min-height: 45vh;
+  }
+
+  .barra {
+    display: none;
+  }
+
+  .seguranca .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .seguranca img {
+    margin-right: auto;
+    margin-top: 90px;
+    width: 330px;
+    height: 260px;
+  }
+
+  .logo {
+    width: 220px;
+  }
+ 
+  .tituloPrincipal {
+    width: 210px;
+    margin-left: 10%;
+  }
+  
+  .tituloInicio1 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .tituloInicio2 {
+    font-size: 10px;
+  }
+
+  .barraSeguranca {
+    display: none;
+  }
+  
+  .atender {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 55vh;
+  }
+
+  .textAtender h1 {
+    margin: 40px 0 30px 0px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .textAtender p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 30px 0px;
+  }
+
+  .btnAtender {
+    margin: 0;
+    width: 200px;
+    height: 45px;
+  }
+
+}
+
+@media (max-width: 1190px) {
+  .barraSeguranca {
+    margin: 0 20px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    top: 2%;
+    right: 8%;
+    border-radius: 50px;
+  }
+
+  .barra {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+  .barra {
+    display: none;
+  }
+
+  
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+body {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url("/public/images/carretaBG.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100%;
+  height: 45vw;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: #00349b;
+  padding: 10px 0;
+  box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5);
+}
+
+.logo {
+  margin:-10px 0 0 80px;
+  width: 230px; 
+  height: auto;
+  filter: drop-shadow(1px 2px 1px #fff);
+}
+
+.nav-links {
+  margin: -275px 0 0 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links a {
+  transition: 0.3s;
+  font-weight: bold;
+  margin: 0 30px 0 0;
+  color: #FFF;
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: 5px 5px 10px rgba(10, 10, 10, 5.15);
+}
+
+.nav-links a:hover {
+  color: #FFDF00;
+}
+
+.nav-links .btnNav a {
+  margin: 0;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
+
+.closebtn {
+  display: none;
+}
+
+.btnNav {
+  background-color: #009c3b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  transition: 0.5s;
+  margin: 12px 8px 8px 22px;
+  width: 265px;
+  height: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btnNav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btnNav:hover {
+  transform: scale(105%);
+  cursor: pointer;
+}
+
+.aNav {
+  display: none;
+}
+
+.tituloPrincipal {
+  margin-top: 17;
+  text-shadow: 10px 5px 10px rgba(10, 10, 10, 5.15);
+  width: 720px;
+  margin-left: 10%;
+}
+
+.tituloInicio1 {
+  font-weight: bold;
+  font-size: 82px;
+}
+
+.tituloInicio2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.transportes {
+  padding: 20px;
+  text-align: center;
+  background: #00349b;
+}
+
+.transportes h2 {
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.imagem-carga {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.carga-paletizada,
+.carga-sacaria,
+.carga-bigbag,
+.carga-engradados {
+  flex-basis: calc(15% - 100px);
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.carga-paletizada img,
+.carga-sacaria img,
+.carga-bigbag img,
+.carga-engradados img {
+  width: 350px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carga-paletizada h3,
+.carga-sacaria h3,
+.carga-bigbag h3,
+.carga-engradados h3 {
+  font-size: 34px;
+  margin-top: 10px;
+}
+
+.carga-paletizada p,
+.carga-sacaria p,
+.carga-bigbag p,
+.carga-engradados p {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.seguranca {
+  background-color: #d9d9d9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-height: 30vh;
+}
+
+.seguranca h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.seguranca p {
+  width: 320px;
+  font-size: 18px;
+}
+
+.barraSeguranca {
+  width: 8px;
+  height: 220px;
+  min-height: 100px;
+  background-color: #FFDF00;
+  margin:0 100px;
+  border-radius: 4px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  text-align: left;
+  max-width: 50%;
+}
+
+.seguranca img {
+  border-radius: 15px;
+  margin-left: 0px;
+  width: 600px;
+  height: 300px;
+}
+
+.valor-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.tituloRazoes {
+  font-size: 20px;
+}
+
+.tituloValor {
+  font-size: 60px;
+  color: #FFDF00;
+}
+
+.text {
+  margin: 40px;
+  text-align: left;
+  max-width: 0 50%;
+  padding-right: 20px;
+}
+
+.documentacaoText {
+  margin: 70px 220px;
+}
+
+.documentacaoText h3 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.frotaText {
+  font-size: 18px;
+  margin: 70px 220px;
+}
+
+.frotaText h3 {
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.imagemValor {
+  max-width: 50%;
+}
+
+.imagemValor img {
+  width: 300px;
+  height: auto;
+  margin: 80px 60px;
+  border-radius: 8px;
+}
+
+.valor {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  background: #00349b;
+}
+
+.atender {
+  color: #fff;
+}
+
+.atender {
+  background: url(/public/images/rodovia-1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 35vw;
+  display: flex;
+}
+
+.textAtender {
+  display: flex;
+  flex-direction: column;
+}
+
+.textAtender h1 {
+  margin: 40px 0 30px 60px;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.textAtender p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0 30px 60px;
+}
+
+.btnAtender {
+  transition: 0.3s;
+  border: none;
+  margin: auto 550px 40px 0 ;
+  width: 480px;
+  height: 55px;
+  background: #009c3b;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.btnAtender:hover {
+  transform: scale(105%);
+}
