@@ -211,15 +211,17 @@ button.btnNav a {
 .carga-sacaria h3,
 .carga-bigbag h3,
 .carga-engradados h3 {
-  font-size: 34px;
+  font-size: 35px;
+  border-bottom: 4px solid #FFDF00;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .carga-paletizada p,
 .carga-sacaria p,
 .carga-bigbag p,
 .carga-engradados p {
-  font-size: 16px;
+  font-size: 20px;
   margin-top: 15px;
 }
 
@@ -526,8 +528,9 @@ button.btnSolicite a {
 }
 
 .mapa img {
-  width: 500px;
+  width: 650px;
   height: auto;
+  filter: drop-shadow(1px 3px 1px #000000);
 }
 
 
