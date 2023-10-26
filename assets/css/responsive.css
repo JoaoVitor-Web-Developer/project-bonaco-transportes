@@ -120,6 +120,11 @@
 }
 
 @media (max-width: 768px) {
+  .nav-links {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
   .logo-container {
     display: flex;
     align-items: center;
@@ -288,7 +293,13 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 1600px) {
+  .formulario {
+    min-height: 68vh;
+  }
+}
+
+@media (max-width: 600px) {
   .navbar {
     top: 2%;
     right: 8%;
@@ -304,7 +315,7 @@
   }
 }
 
-@media screen and (max-height: 450px) {
+@media (max-width: 450px) {
   .sidenav {
     padding-top: 15px;
   }
@@ -316,12 +327,12 @@
     display: none;
   }
 
-  
-}
-
-@media (min-width: 768px) {
-  .nav-links {
-    margin-left: auto;
-    margin-right: 20px;
+  .formulario {
+    min-height: 80vh;
   }
+
+  header {
+    height: 60vw;
+  }
+
 }
