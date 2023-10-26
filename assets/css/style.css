@@ -57,6 +57,30 @@ header {
   filter: drop-shadow(1px 2px 1px #fff);
 }
 
+.whatsapp-button {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  transition: 0.3s;
+}
+
+.whatsapp-button:hover {
+  transform: scale(105%);
+}
+
+.whatsapp-button img {
+  width: 80%;
+}
+
+
 .nav-links {
   margin: -275px 0 0 0;
   display: flex;
