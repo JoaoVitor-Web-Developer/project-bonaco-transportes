@@ -1,257 +1,295 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Descrição do seu site aqui. Isso ajuda no SEO."
+    />
+    <meta
+      name="keywords"
+      content="transportes, transportadora, cargas, seguro"
+    />
+    <meta name="author" content="Bonaço Transportes" />
+    <meta name="robots" content="index, follow" />
 
-  <meta name="description" content="Descrição do seu site aqui. Isso ajuda no SEO." />
-  <meta name="keywords" content="transportes, transportadora, cargas, seguro" />
-  <meta name="author" content="Bonaço Transportes" />
-  <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Bonaço - Transportes</title>
+  </head>
 
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/responsive.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <title>Bonaço - Transportes</title>
-</head>
-
-<body>
-  <header id="home">
-    <div class="logo-container">
-      <img src="public/images/logo.png" alt="Logo Bonaço" class="logo" />
-    </div>
-    <div data-aos="fade-right">
-      <div class="tituloPrincipal">
-        <p class="tituloInicio1">Soluções logísticas</p>
-        <p class="tituloInicio2">
-          Transportes Rodoviário de Cargas, Armazenagem e Logística
-        </p>
+  <body>
+    <header id="home">
+      <div class="logo-container">
+        <img src="public/images/logo.png" alt="Logo Bonaço" class="logo" />
       </div>
-    </div>
-    <nav class="nav-links">
-      <div id="mySidenav" class="sidenav">
-        <a class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#home">Home</a>
-        <a href="#sobre">Sobre nós</a>
-        <a href="#tranportes">O que transportamos</a>
-        <a href="#contato">Contato</a>
-        <a href="#servicos">Serviços</a>
-
-        <button class="btnNav">
-          <a href="https://api.whatsapp.com/send?phone=5524999303783" target="_blank">
-            Solicite já seu orçamento!
-          </a>
-        </button>
-      </div>
-    </nav>
-    <div id="main"></div>
-    <span onclick="openNav()" class="navbar">&#9776;</span>
-  </header>
-
-  <main>
-    <section class="transportes" id="transportes">
-      <h2>O que transportamos ?</h2>
-
-      <div data-aos="fade-up">
-        <div class="imagem-carga">
-          <article class="carga-paletizada">
-            <img src="public/images/paletizadas.PNG" alt="Imagem de cargas Paletizadas" />
-            <h3>Cargas Paletizadas</h3>
-            <p>
-              Produtos dispostos em paletes, facilitando o manuseio e
-              transporte, comumente usados em logística.
-            </p>
-          </article>
-
-          <article class="carga-sacaria">
-            <img src="public/images/sacaria.PNG" alt="Imagem de cargas em Sacaria" />
-            <h3>Cargas em Sacaria</h3>
-            <p>
-              Mercadorias acondicionadas em sacos, adequadas para transporte
-              de grãos, alimentos e produtos a granel.
-            </p>
-          </article>
-
-          <article class="carga-bigbag">
-            <img src="public/images/big-bags-embalagem-01.jpg" alt="Imagem de cargas em BigBag" />
-            <h3>Cargas em BigBag</h3>
-            <p>
-              São feitos transportes de materiais a granel a granel, como
-              grãos, produtos químicos e minerais.
-            </p>
-          </article>
-
-          <article class="carga-engradados">
-            <img src="public/images/image-engradados.jpg" alt="Imagem de cargas em Engradados" />
-            <h3>Cargas em Engradados</h3>
-            <p>
-              São feito transporte de itens embalados em caixas ou engradados,
-              oferecendo proteção durante o transporte e manuseio.
-            </p>
-          </article>
+      <div data-aos="fade-right">
+        <div class="tituloPrincipal">
+          <p class="tituloInicio1">Soluções logísticas</p>
+          <p class="tituloInicio2">
+            Transportes Rodoviário de Cargas, Logística em geral
+          </p>
         </div>
       </div>
-    </section>
+      <nav class="nav-links">
+        <div id="mySidenav" class="sidenav">
+          <a class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#transportes">O que transportamos?</a>
+          <a href="#contato">Contato</a>
 
-    <section class="seguranca">
-      <h2>Pontualidade e segurança!</h2>
-      <div class="content">
-        <div data-aos="fade-right">
-          <div class="text">
-            <p>
-              Contamos com um time de profissionais capacitados e engajados a
-              atender a sua demanda.
-            </p>
-            <p>
-              Nosso time estará sempre à disposição para prestar o devido
-              suporte, avaliando sempre as melhores estratégias de rotas para
-              atendê-lo com agilidade.
-            </p>
+          <button class="btnNav">
+            <a
+              href="https://api.whatsapp.com/send?phone=5524999303783"
+              target="_blank"
+            >
+              Solicite já seu orçamento!
+            </a>
+          </button>
+        </div>
+      </nav>
+      <div id="main"></div>
+      <span onclick="openNav()" class="navbar">&#9776;</span>
+    </header>
+
+    <main>
+      <section class="transportes" id="transportes">
+        <h2>O que transportamos ?</h2>
+
+        <div data-aos="fade-up">
+          <div class="imagem-carga">
+            <article class="carga-paletizada">
+              <img
+                src="public/images/paletizadas.PNG"
+                alt="Imagem de cargas Paletizadas"
+              />
+              <h3>Cargas Paletizadas</h3>
+              <p>
+                Produtos dispostos em paletes, facilitando o manuseio e
+                transporte, comumente usados em logística.
+              </p>
+            </article>
+
+            <article class="carga-sacaria">
+              <img
+                src="public/images/sacaria.PNG"
+                alt="Imagem de cargas em Sacaria"
+              />
+              <h3>Cargas em Sacaria</h3>
+              <p>
+                Mercadorias acondicionadas em sacos, adequadas para transporte
+                de grãos, alimentos e produtos a granel.
+              </p>
+            </article>
+
+            <article class="carga-bigbag">
+              <img
+                src="public/images/big-bags-embalagem-01.jpg"
+                alt="Imagem de cargas em BigBag"
+              />
+              <h3>Cargas em BigBag</h3>
+              <p>
+                São feitos transportes de materiais a granel a granel, como
+                grãos, produtos químicos e minerais.
+              </p>
+            </article>
+
+            <article class="carga-engradados">
+              <img
+                src="public/images/image-engradados.jpg"
+                alt="Imagem de cargas em Engradados"
+              />
+              <h3>Cargas em Engradados</h3>
+              <p>
+                São feito transporte de itens embalados em caixas ou engradados,
+                oferecendo proteção durante o transporte e manuseio.
+              </p>
+            </article>
           </div>
         </div>
-        <div class="barraSeguranca"></div>
-        <div data-aos="fade-left">
-          <img src="public/images/caminhao.jpeg" alt="Imagem de segurança" />
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="valor">
-      <div class="valor-container">
-        <div data-aos="fade-right">
-          <div class="imagemValor">
-            <img src="public/images/caminhao2.jpeg" alt="" />
+      <section class="seguranca" id="seguranca">
+        <h2>Pontualidade e segurança!</h2>
+        <div class="content">
+          <div data-aos="fade-right">
+            <div class="text">
+              <p>
+                Contamos com um time de profissionais capacitados e engajados a
+                atender a sua demanda.
+              </p>
+              <p>
+                Nosso time estará sempre à disposição para prestar o devido
+                suporte, avaliando sempre as melhores estratégias de rotas para
+                atendê-lo com agilidade.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="text">
-          <p class="tituloRazoes">Razões para escolher a Bonaço:</p>
-          <h2 class="tituloValor">
-            Valorizamos sua carga como o compromisso da entrega que ela
-            representa.
-          </h2>
-
+          <div class="barraSeguranca"></div>
           <div data-aos="fade-left">
-            <div class="documentacaoText">
-              <h3>Documentação</h3>
-              <p>
-                A Bonaço, conta com todas as documentações e alvarás de
-                transportes e armazenamento.
-              </p>
+            <img src="public/images/caminhao.jpeg" alt="Imagem de segurança" />
+          </div>
+        </div>
+      </section>
+
+      <section class="valor" id="valor">
+        <div class="valor-container">
+          <div data-aos="fade-right">
+            <div class="imagemValor">
+              <img src="public/images/caminhao2.jpeg" alt="" />
             </div>
-            <div class="frotaText">
-              <h3>Frota</h3>
-              <p>
-                Contamos com frota própria e agregada, com veículos novos, visando
-                a segurança, todas nossas cargas são asseguradas e monitoradas.
-              </p>
+          </div>
+          <div class="text">
+            <p class="tituloRazoes">Razões para escolher a Bonaço:</p>
+            <h2 class="tituloValor">
+              Valorizamos sua carga como o compromisso da entrega que ela
+              representa.
+            </h2>
+
+            <div data-aos="fade-left">
+              <div class="documentacaoText">
+                <h3>Documentação</h3>
+                <p>
+                  A Bonaço, conta com todas as documentações e alvarás de
+                  transportes e armazenamento.
+                </p>
+              </div>
+              <div class="frotaText">
+                <h3>Frota</h3>
+                <p>
+                  Contamos com frota própria e agregada, com veículos novos,
+                  visando a segurança, todas nossas cargas são asseguradas e
+                  monitoradas.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    
-    <section class="atender" >
+      </section>
+
+      <section class="atender" id="atender">
         <div class="textAtender" data-aos="fade-up">
           <h1>Estamos sempre prontos para lhe atender!</h1>
           <p>Nos envie sua carga já!</p>
         </div>
-        <button class="btnAtender" data-aos="fade-up">Fale conosco!</button>
-    </section>
+        <div class="btnAtender" data-aos="fade-up">
+          <button>Fale conosco!</button>
+        </div>
+      </section>
 
-    <section class="sobre" id="sobre">
-      <div class="bgSobre">
-        <h1>Sobre nós</h1>
-        <div class="barraSobre"></div>
-        <h2>Quem Somos?</h2>
-        <p>
-          A Bonaco Indústria, Cómercio, Transporte e Serviços Eireli é uma
-          empresa dedicação setor de transporte, fornecendo soluções de
-          logística e transporte de carga em todo Brasil.
-        </p>
-        <br /><br />
-        <h2>Nosso valores!</h2>
-        <p>
-          Compromisso com a Qualidade: Estamos comprometidos com os mais altos
-          padrões de qualidade em nosso serviços, desde o atendimento ao
-          cliente até a entrega das mercadoria<br /><br />Confiabilidade:
-          Construímos relações sólidas com nossos clientes com base na
-          confiabilidade e na capacidade de cumprir nossos compromissos.
-          <br /><br />Inovação: Estamos sempre buscando maneiras de inovar e
-          aprimorar nossos processos para oferecer soluções de transportes
-          mais eficientes.<br /><br />Sustentabilidade: Somos responsáveis com
-          o meio ambiente e buscamos práticas sustentáveis em nossas operações
-          de transporte
-        </p>
-      </div>
-    </section>
+      <section class="sobre" id="sobre">
+        <div class="bgSobre">
+          <div class="sobreTitulo" data-aos="fade-down">
+            <h1>Sobre nós</h1>
+          </div>
+          <div class="barraSobre"></div>
+          <div class="sobreTexto">
+            <h2 data-aos="fade-right">Quem Somos?</h2>
+            <p data-aos="fade-right">
+              A Bonaco Indústria, Cómercio, Transporte e Serviços Eireli é uma
+              empresa dedicação setor de transporte, fornecendo soluções de
+              logística e transporte de carga em todo Brasil.
+            </p>
+            <br /><br />
+            <h2 data-aos="fade-left">Nosso valores!</h2>
+            <p data-aos="fade-left">
+              Compromisso com a Qualidade: Estamos comprometidos com os mais
+              altos padrões de qualidade em nosso serviços, desde o atendimento
+              ao cliente até a entrega das mercadoria<br /><br />Confiabilidade:
+              Construímos relações sólidas com nossos clientes com base na
+              confiabilidade e na capacidade de cumprir nossos compromissos.
+              <br /><br />Inovação: Estamos sempre buscando maneiras de inovar e
+              aprimorar nossos processos para oferecer soluções de transportes
+              mais eficientes.<br /><br />Sustentabilidade: Somos responsáveis
+              com o meio ambiente e buscamos práticas sustentáveis em nossas
+              operações de transporte
+            </p>
+          </div>
+        </div>
+      </section>
 
-    <section id="formulario">
-      <h2>Solicite já um orçamento</h2>
-      <form action="submit">
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Insira o seu nome" />
-        <label for="email">E-mail</label>
-        <input type="email" id="email" placeholder="Insira seu e-mail" />
-        <label for="telefone">Telefone</label>
-        <input type="tel" id="telefone" placeholder="Insira seu telefone" />
-        <button class="btnSolicite">
-          <a href="https://api.whatsapp.com/send?phone=5524999303783" target="_blank">Solicite já!</a>
-        </button>
-      </form>
-    </section>
+      <section class="formulario" id="contato">
+        <h2 data-aos="zoom-out">Solicite já um orçamento</h2>
+        <form data-aos="zoom-out" action="submit">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" placeholder="Insira o seu nome" />
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="Insira seu e-mail" />
+          <label for="telefone">Telefone</label>
+          <input type="tel" id="telefone" placeholder="Insira seu telefone" />
+          <button class="btnSolicite">
+            <a
+              href="https://api.whatsapp.com/send?phone=5524999303783"
+              target="_blank"
+              >Solicite já!</a
+            >
+          </button>
+        </form>
+      </section>
 
-    <section>
-      <h1>Aonde estamos localizados ?</h1>
-      <div class="mapa">
-        <img src="public/images/mapaBR.png" alt="Imagem de um mapa aonde estamos localizados" />
-      </div>
-      <div class="encontrar">
-        <p>Nossa sede -</p>
-        <p>Filial -</p>
-      </div>
-      <div class="pontosBase">
-        <p>Pinheral - RJ</p>
-        <p>Campinas - SP</p>
-        <p>Mirassol - SP</p>
-      </div>
-      <div class="pontosApoio">
-        <p>São jose do rio preto - SP</p>
-        <p>Barretos - SP</p>
-        <p>Lenções Paulista - SP</p>
-        <p>Itapolis - SP</p>
-      </div>
-    </section>
-  </main>
+      <section class="localizacao" id="localizacao">
+        <h1>Aonde estamos localizados ?</h1>
+        <div class="mapa">
+          <img
+            data-aos="fade-up"
+            src="public/images/mapaBR.png"
+            alt="Imagem de um mapa aonde estamos localizados"
+          />
+        </div>
+        <div class="local-info" data-aos="fade-down">
+          <div class="encontrar">
+            <h1>LOCAIS</h1>
+            <p>Nossa sede - José Bonifácio - SP</p>
+            <p>Filial - Barra Mansa - RJ</p>
+          </div>
+          <div class="pontosBase">
+            <h1>PONTOS BASE</h1>
+            <p>Pinheral - RJ</p>
+            <p>Campinas - SP</p>
+            <p>Mirassol - SP</p>
+          </div>
+          <div class="pontosApoio">
+            <h1>PONTOS DE APOIO</h1>
+            <p>São jose do rio preto - SP</p>
+            <p>Barretos - SP</p>
+            <p>Lenções Paulista - SP</p>
+            <p>Itapolis - SP</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <footer>
-    <div class="footer-content">
-      <div class="contato-info">
-        <h3>Contato</h3>
-        <p>Telefone: <a href="tel:24999303783">(24) 99930-3783</a></p>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Contato</h3>
+          <p>Telefone: <a href="https://api.whatsapp.com/send?phone=5524999303783">(24) 99930-3783</a></p>
+        </div>
+    
+        <div class="footer-column">
+          <h3>Link rápidos</h3>
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#contato">Solicite já um orçamento!</a>
+        </div>
+    
+        <div class="footer-column">
+          <h3>Redes Sociais</h3>
+          <a class="social-icons" href="https://www.facebook.com/seufacebook" target="_blank"><img src="public/images/facebook-1.png" alt="Facebook" /></a>
+          <a class="social-icons" href="https://www.instagram.com/seuinstagram" target="_blank"><img src="public/images/instagram-1.png" alt="Instagram" /></a>
+          <a class="social-icons" href="https://api.whatsapp.com/send?phone=5524999303783" target="_blank"><img src="public/images/whatsapp-2.png" alt="WhatsApp" /></a>
+        </div>
       </div>
-
-      <div class="linkRapidos">
-        <h3>Link rápidos</h3>
-        <a href="#home">Home</a>
-        <a href="#sobre">Sobre nós</a>
-        <a href="#formulario">Solicite já um orçamento!</a>
+      <div class="copyright">
+        <p>&copy; 2023 Bonaço | Todos os direitos reservados Bonaço</p>
       </div>
-
-      <div class="social-icons">
-        <h3>Redes Sociais</h3>
-        <a href="https://www.facebook.com/seufacebook" target="_blank"><img src="public/images/facebook-1.png"
-            alt="Facebook" /></a>
-        <a href="https://www.instagram.com/seuinstagram" target="_blank"><img src="public/images/instagram-1.png"
-            alt="Instagram" /></a>
-        <a href="https://api.whatsapp.com/send?phone=5524999303783" target="_blank"><img
-            src="public/images/whatsapp-2.png" alt="WhatsApp" /></a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="assets/js/script.js"></script>
-</body>
-
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>

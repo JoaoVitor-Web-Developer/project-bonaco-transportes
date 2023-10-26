@@ -1,14 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 * {
+  scroll-behavior: smooth;
   font-family: "Lato", sans-serif;
   margin: 0;
 }
 
 body {
-  scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover:horizontal {
+  background: #000000;
 }
 
 header {
@@ -20,7 +45,6 @@ header {
   width: 100%;
   height: 45vw;
 }
-
 
 .logo-container {
   display: flex;
@@ -84,6 +108,13 @@ header {
   width: 265px;
   height: 50px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button.btnNav a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
 }
 
 .btnNav a {
@@ -285,48 +316,246 @@ header {
 
 .atender {
   color: #fff;
-}
-
-.atender {
   background: url(/public/images/rodovia-1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 35vw;
+  height: 27vw;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0;
 }
 
 .textAtender {
-  display: flex;
-  flex-direction: column;
+  text-align: left;
+  padding-left: 60px;
 }
 
 .textAtender h1 {
-  margin: 40px 0 30px 60px;
-  font-size: 52px;
+  margin: 0;
+  font-size: 68px;
   font-weight: bold;
 }
 
 .textAtender p {
-  font-size: 40px;
+  font-size: 46px;
   font-weight: bold;
-  margin: 20px 0 30px 60px;
+  margin: 20px 0 30px 0;
 }
 
 .btnAtender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 40px;
+}
+
+.btnAtender button {
   transition: 0.3s;
   border: none;
-  margin: auto 550px 40px 0 ;
   width: 480px;
   height: 55px;
   background: #009c3b;
   color: #fff;
-  font-size: 22px;
+  font-size: 27px;
+  font-weight: bold;
   border-radius: 10px;
-  margin-bottom: 0;
 }
 
-.btnAtender:hover {
+.btnAtender button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.bgSobre {
+  width: 100%;
+  min-height: 35vh;
+  padding: 0 0 40px 0;
+}
+
+.sobre {
+  display: flex;
+  background: #d9d9d9;
+}
+
+.sobreTexto {
+  text-align: left;
+  margin: 20px 40px;
+  padding-left: 30px;
+}
+
+.sobre h1 {
+  font-size: 70px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 7px solid #00349b;
+  padding-bottom: 10px;
+  margin: 20px 0; 
+}
+
+.sobre h2 {
+  font-size: 30px;
+}
+
+.sobre p {
+  font-size: 22px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #00349b;
+  padding: 20px;
+  height: 50vh;
+}
+
+.formulario h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+label {
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFDF00;
+}
+
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+button.btnSolicite {
+  background: #009c3b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 325px;
+  margin: 45px 0;
+  transition: 0.3s;
+}
+
+button.btnSolicite:hover {
   transform: scale(105%);
 }
+
+button.btnSolicite a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.localizacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #d9d9d9;
+  padding: 20px;
+}
+
+.localizacao h1 {
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 4px solid #00349b;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+
+.mapa {
+  flex: 1;
+}
+
+.mapa img {
+  width: 500px;
+  height: auto;
+}
+
+
+.local-info {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  text-align: left;
+}
+
+.local-info p {
+  font-size: 18px;
+}
+
+footer {
+  background: #00349b;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin: 20px 0;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.footer-column h3 {
+  font-size: 28px;
+  margin: 10px;
+  border-bottom: 4px solid #fff;
+}
+
+.footer-column a:hover {
+  color: #FFDF00;
+  transform: scale(105%);
+}
+
+.social-icons img {
+  width: 54px;
+  flex-direction: row;
+  height: auto;
+}
+
+.copyright p {
+  text-align: center;
+  font-size: 12px;
+  color: #bebebe;
+}
+
+
+
+
+

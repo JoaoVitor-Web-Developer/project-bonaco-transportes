@@ -1,4 +1,4 @@
-@media (max-width: 1190px) {
+@media (max-width: 1024px) {
   .navbar {
     display: flex;
     position: fixed;
@@ -70,6 +70,41 @@
     cursor: pointer;
   }
 
+  .barraSeguranca {
+    display: none;
+  }
+
+  .tituloValor  {
+    font-size: 50px;
+  }
+
+  .valor .documentacaoText h3 {
+    margin-left: -150px;
+  }
+
+  .valor .frotaText h3 {
+    margin-left: -150px;
+  }
+
+  .valor .documentacaoText p {
+    margin-left: -150px;
+    width: 350px;
+  }
+
+  .valor .frotaText p {
+    width: 350px;
+    margin-left:-150px;
+  }
+
+  .atender{
+    min-height: 40vh;
+  }
+
+  .footer-content {
+    display: block;
+    justify-content: space-between;
+}
+
   #main {
     transition: margin-left 0.5s;
     padding: 20px;
@@ -87,9 +122,10 @@
 
   .logo {
     margin: -5px 0 0 10px;
-    width: 230px; 
+    width: 220px; 
     height: auto;
   }
+
 
   .valor {
     min-height: 75vh;
@@ -101,9 +137,10 @@
 
   .valor-container img {
     margin-right: auto;
-    margin-top: 90px;
-    width: auto;
-    height: 420px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    width: 200px;
+    height: 320px;
   }
 
   .tituloValor {
@@ -157,10 +194,10 @@
     height: 260px;
   }
 
-  .logo {
-    width: 220px;
+  .barraSeguranca {
+    margin: 0 20px;
   }
- 
+
   .tituloPrincipal {
     width: 210px;
     margin-left: 10%;
@@ -187,28 +224,58 @@
   }
 
   .textAtender h1 {
-    margin: 40px 0 30px 0px;
-    font-size: 22px;
+    margin: 20px 0 30px -20px;
+    font-size: 36px;
     font-weight: bold;
   }
   
   .textAtender p {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    margin: 20px 0 30px 0px;
+    margin: 20px 0 30px -20px;
   }
 
-  .btnAtender {
-    margin: 0;
-    width: 200px;
+  .btnAtender button{
+    font-size: 22px;
+    width: 300px;
     height: 45px;
   }
 
-}
+  .valor .documentacaoText h3 {
+    margin-left: -45px;
+  }
 
-@media (max-width: 1190px) {
-  .barraSeguranca {
-    margin: 0 20px;
+  .valor .documentacaoText p {
+    margin-left: -45px;
+  }
+
+  .valor .frotaText h3 {
+    margin-left: -45px;
+  }
+
+  .valor .frotaText p {
+    margin-left: -45px;
+  }
+
+  .sobre {
+    min-height: 140vh;
+  }
+
+  .sobre h2 {
+    padding: 20px 0;
+  }
+
+  .formulario {
+    min-height: 70vh;
+  }
+
+  .localizacao {
+    display: flex;
+  }
+
+  .mapa img {
+    width: 450px;
+    height: auto;
   }
 
 }
