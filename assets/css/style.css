@@ -9,7 +9,7 @@
 body {
   padding: 0;
   margin: 0;
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -29,12 +29,8 @@ body {
   background: #f1f1f1;
 }
 
-::-webkit-scrollbar-thumb:horizontal {
-  background: #000000;
-}
-
-::-webkit-scrollbar-thumb:hover:horizontal {
-  background: #000000;
+main {
+overflow-x: hidden;
 }
 
 header {
@@ -45,11 +41,6 @@ header {
   color: #fff;
   width: 100%;
   height: 45vw;
-}
-
-
-main {
-  overflow-x: hidden;
 }
 
 .logo-container {
@@ -357,6 +348,11 @@ button.btnNav a {
   margin: 0 auto 40px;
 }
 
+.btnAtender a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .btnAtender button {
   transition: 0.3s;
   border: none;
@@ -473,6 +469,10 @@ button.btnSolicite a {
   color: inherit;
 }
 
+.localizacao .tituloLocalizacao {
+  font-size: 45px;
+}
+
 .localizacao {
   display: flex;
   flex-wrap: wrap;
@@ -480,16 +480,22 @@ button.btnSolicite a {
   align-items: center;
   text-align: center;
   background: #d9d9d9;
-  padding: 20px;
+  padding: 10px;
 }
 
 .localizacao h1 {
-  font-size: 28px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   border-bottom: 4px solid #00349b;
   padding-bottom: 10px;
   margin: 20px 0;
+}
+
+.localizacao p {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 .mapa {
@@ -506,7 +512,7 @@ button.btnSolicite a {
   flex: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   text-align: left;
 }
 
