@@ -103,7 +103,15 @@
   .footer-content {
     display: block;
     justify-content: space-between;
-}
+  }
+  
+  .atender {
+     min-height: 25vh;
+  }
+  
+  .formulario {
+    min-height: 25vh;
+  }
 
   #main {
     transition: margin-left 0.5s;
@@ -289,6 +297,10 @@
 
   .barra {
     display: none;
+  }
+  
+  .atender {
+    min-height: 40vh;
   }
 }
 
