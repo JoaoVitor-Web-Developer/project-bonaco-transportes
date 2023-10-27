@@ -33,7 +33,7 @@ overflow: hidden;
 }
 
 header {
-  background-image: url("/public/images/carretaBG.png");
+  background: url("/public/images/carretaBG.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,9 +52,9 @@ header {
 
 .logo {
   margin:-10px 0 0 80px;
-  width: 300px; 
+  width: 350px; 
   height: auto;
-  filter: drop-shadow(1px 2px 1px #fff);
+  filter: drop-shadow(2px 2px 1px #949494);
 }
 
 .whatsapp-button {
@@ -80,9 +80,8 @@ header {
   width: 80%;
 }
 
-
 .nav-links {
-  margin: -315px 0 0 0;
+  margin: -415px 40px 0 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -93,7 +92,7 @@ header {
   font-weight: bold;
   margin: 0 30px 0 0;
   color: #FFF;
-  font-size: 17px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -124,7 +123,7 @@ header {
   border-radius: 8px;
   transition: 0.5s;
   margin: 12px 8px 8px 22px;
-  width: 265px;
+  width: 305px;
   height: 50px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -151,10 +150,9 @@ button.btnNav a {
 }
 
 .tituloPrincipal {
-  margin-top: 32px;
-  text-shadow: 10px 5px 10px rgba(10, 10, 10, 5.15);
-  width: 720px;
-  margin-left: 12%;
+  margin-top: 120px;
+  width: 825px;
+  margin-left: 15%;
 }
 
 .tituloInicio1 {
@@ -264,8 +262,8 @@ button.btnNav a {
 .seguranca img {
   border-radius: 15px;
   margin-left: 0px;
-  width: 600px;
-  height: 300px;
+  width: 530px;
+  height: 330px;
 }
 
 .valor-container {
@@ -314,9 +312,9 @@ button.btnNav a {
 }
 
 .imagemValor img {
-  width: 300px;
+  width: 550px;
   height: auto;
-  margin: 80px 60px;
+  margin: 60% 60px;
   border-radius: 8px;
 }
 

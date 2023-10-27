@@ -149,11 +149,11 @@
   }
 
   .valor-container img {
-    margin-right: auto;
+    margin-right: -410px;
     margin-top: 20px;
     margin-bottom: -20px;
-    width: 200px;
-    height: 320px;
+    width: 250px;
+    height: auto;
   }
 
   .tituloValor {
