@@ -212,6 +212,7 @@
   }
 
   .tituloPrincipal {
+    margin-top: 0;
     width: 210px;
     margin-left: 10%;
   }
