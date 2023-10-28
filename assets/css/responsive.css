@@ -25,7 +25,7 @@
   }
 
   .btnNav {
-    display: none;  
+    display: none;
   }
 
   .navbar:hover {
@@ -74,7 +74,7 @@
     display: none;
   }
 
-  .tituloValor  {
+  .tituloValor {
     font-size: 50px;
   }
 
@@ -93,24 +93,23 @@
 
   .valor .frotaText p {
     width: 350px;
-    margin-left:-150px;
+    margin-left: -150px;
   }
 
-  .atender{
-    min-height: 40vh;
+  .atender {
+    min-height: 25vh;
+  }
+
+  .formulario {
+    min-height: 50vh !important;
+  }
+  .sobre {
+    min-height: 83vh !important;
   }
 
   .footer-content {
     display: block;
     justify-content: space-between;
-  }
-  
-  .atender {
-     min-height: 25vh;
-  }
-  
-  .formulario {
-    min-height: 25vh;
   }
 
   #main {
@@ -135,10 +134,9 @@
 
   .logo {
     margin: -5px 0 0 10px;
-    width: 220px; 
+    width: 220px;
     height: auto;
   }
-
 
   .valor {
     min-height: 75vh;
@@ -150,6 +148,7 @@
 
   .valor-container {
     flex-direction: column;
+    margin-right: -110px;
   }
 
   .valor-container img {
@@ -163,24 +162,24 @@
   .tituloValor {
     width: 280px;
     font-size: 35px;
-    color: #FFDF00;
+    color: #ffdf00;
   }
 
   .documentacaoText {
     font-size: 18px;
     margin: 20px 20px;
   }
-  
+
   .documentacaoText h3 {
     font-size: 12px;
     margin: 15px 0;
   }
-  
+
   .frotaText {
     font-size: 18px;
     margin: 20px 20px;
   }
-  
+
   .frotaText h3 {
     font-size: 12px;
     margin: 15px 0;
@@ -220,12 +219,12 @@
     width: 210px;
     margin-left: 10%;
   }
-  
+
   .tituloInicio1 {
     font-weight: bold;
     font-size: 25px;
   }
-  
+
   .tituloInicio2 {
     font-size: 10px;
   }
@@ -233,7 +232,7 @@
   .barraSeguranca {
     display: none;
   }
-  
+
   .atender {
     flex-direction: column;
     align-items: center;
@@ -246,14 +245,14 @@
     font-size: 36px;
     font-weight: bold;
   }
-  
+
   .textAtender p {
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0 30px -20px;
   }
 
-  .btnAtender button{
+  .btnAtender button {
     font-size: 22px;
     width: 300px;
     height: 45px;
@@ -295,7 +294,6 @@
     width: 450px;
     height: auto;
   }
-
 }
 
 @media (max-width: 1600px) {
@@ -314,7 +312,7 @@
   .barra {
     display: none;
   }
-  
+
   .atender {
     min-height: 50vh;
   }
@@ -339,5 +337,4 @@
   header {
     height: 60vw;
   }
-
 }
