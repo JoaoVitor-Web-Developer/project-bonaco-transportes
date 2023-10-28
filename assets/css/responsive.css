@@ -331,7 +331,7 @@
   }
 
   .formulario {
-    min-height: 80vh;
+    min-height: 80vh !important;
   }
 
   header {
