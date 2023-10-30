@@ -175,7 +175,6 @@ button.btnNav a {
   font-size: 33px;
   color: #fff;
   margin-bottom: 20px;
-  text-shadow: 2px 2px 4px #000;
 }
 
 .imagem-carga {
@@ -331,8 +330,6 @@ button.btnNav a {
   padding: 20px;
   text-align: center;
   background: #5a91ff;
-  text-shadow: 2px 2px 4px #000;
-
 }
 
 .atender {
@@ -459,7 +456,6 @@ label {
   font-size: 22px;
   font-weight: bold;
   color: #FFDF00;
-  text-shadow: 2px 2px 4px #000;
 }
 
 input {
