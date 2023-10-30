@@ -45,7 +45,7 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
-  background-color: #2d68dd;
+  background-color: #ffffff;
   padding: 10px 0;
   box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5);
 }
@@ -54,7 +54,7 @@ header {
   margin:-10px 0 0 80px;
   width: 350px; 
   height: auto;
-  filter: drop-shadow(2px 2px 1px #949494);
+  filter: drop-shadow(2px 2px 1px #000000);
 }
 
 .whatsapp-button {
@@ -91,7 +91,7 @@ header {
   transition: 0.3s;
   font-weight: bold;
   margin: 0 30px 0 0;
-  color: #FFF;
+  color: #000000;
   font-size: 18px;
   text-decoration: none;
 }
@@ -168,13 +168,14 @@ button.btnNav a {
 .transportes {
   padding: 20px;
   text-align: center;
-  background: #2d68dd;
+  background: #5a91ff;
 }
 
 .transportes h2 {
   font-size: 33px;
   color: #fff;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000;
 }
 
 .imagem-carga {
@@ -285,6 +286,7 @@ button.btnNav a {
 .tituloValor {
   font-size: 60px;
   color: #FFDF00;
+  text-shadow: 2px 2px 1px #000;
 }
 
 .text {
@@ -328,7 +330,9 @@ button.btnNav a {
   color: #fff;
   padding: 20px;
   text-align: center;
-  background: #2d68dd;
+  background: #5a91ff;
+  text-shadow: 2px 2px 4px #000;
+
 }
 
 .atender {
@@ -414,7 +418,7 @@ button.btnNav a {
   font-size: 70px;
   width: 100%;
   text-align: center;
-  border-bottom: 7px solid #2d68dd;
+  border-bottom: 7px solid #5a91ff;
   padding-bottom: 10px;
   margin: 20px 0; 
 }
@@ -433,7 +437,7 @@ button.btnNav a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #2d68dd;
+  background: #5a91ff;
   padding: 20px;
   height: 50vh;
 }
@@ -455,6 +459,7 @@ label {
   font-size: 22px;
   font-weight: bold;
   color: #FFDF00;
+  text-shadow: 2px 2px 4px #000;
 }
 
 input {
@@ -509,7 +514,7 @@ button.btnSolicite a {
   font-size: 20px;
   width: 100%;
   text-align: center;
-  border-bottom: 4px solid #2d68dd;
+  border-bottom: 4px solid #5a91ff;
   padding-bottom: 10px;
   margin: 20px 0;
 }
@@ -544,7 +549,7 @@ button.btnSolicite a {
 }
 
 footer {
-  background: #2d68dd;
+  background: #5a91ff;
   color: #fff;
   padding: 20px;
 }
