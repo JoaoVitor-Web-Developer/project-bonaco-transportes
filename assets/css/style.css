@@ -45,7 +45,7 @@ header {
 .logo-container {
   display: flex;
   align-items: center;
-  background-color: #00349b;
+  background-color: #0042c7;
   padding: 10px 0;
   box-shadow: 5px 5px 10px rgba(1, 1, 1, 0.5);
 }
@@ -168,7 +168,7 @@ button.btnNav a {
 .transportes {
   padding: 20px;
   text-align: center;
-  background: #00349b;
+  background: #0042c7;
 }
 
 .transportes h2 {
@@ -187,7 +187,9 @@ button.btnNav a {
 .carga-paletizada,
 .carga-sacaria,
 .carga-bigbag,
-.carga-engradados {
+.carga-engradados,
+.carga-bobinas,
+.carga-aco {
   flex-basis: calc(15% - 100px);
   text-align: center;
   color: #fff;
@@ -198,7 +200,9 @@ button.btnNav a {
 .carga-paletizada img,
 .carga-sacaria img,
 .carga-bigbag img,
-.carga-engradados img {
+.carga-engradados img,
+.carga-bobinas img,
+.carga-aco img {
   width: 350px;
   height: 280px;
   object-fit: cover;
@@ -208,7 +212,9 @@ button.btnNav a {
 .carga-paletizada h3,
 .carga-sacaria h3,
 .carga-bigbag h3,
-.carga-engradados h3 {
+.carga-engradados h3,
+.carga-bobinas h3,
+.carga-aco h3 {
   font-size: 35px;
   margin-top: 60px;
   margin-bottom: 10px;
@@ -322,7 +328,7 @@ button.btnNav a {
   color: #fff;
   padding: 20px;
   text-align: center;
-  background: #00349b;
+  background: #0042c7;
 }
 
 .atender {
@@ -408,7 +414,7 @@ button.btnNav a {
   font-size: 70px;
   width: 100%;
   text-align: center;
-  border-bottom: 7px solid #00349b;
+  border-bottom: 7px solid #0042c7;
   padding-bottom: 10px;
   margin: 20px 0; 
 }
@@ -427,7 +433,7 @@ button.btnNav a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background: #00349b;
+  background: #0042c7;
   padding: 20px;
   height: 50vh;
 }
@@ -503,7 +509,7 @@ button.btnSolicite a {
   font-size: 20px;
   width: 100%;
   text-align: center;
-  border-bottom: 4px solid #00349b;
+  border-bottom: 4px solid #0042c7;
   padding-bottom: 10px;
   margin: 20px 0;
 }
@@ -519,9 +525,9 @@ button.btnSolicite a {
 }
 
 .mapa img {
-  width: 690px;
+  width: 700px;
   height: auto;
-  filter: drop-shadow(1px 3px 1px #000000);
+  filter: drop-shadow(35px 35px 20px #000000);
 }
 
 
@@ -538,7 +544,7 @@ button.btnSolicite a {
 }
 
 footer {
-  background: #00349b;
+  background: #0042c7;
   color: #fff;
   padding: 20px;
 }

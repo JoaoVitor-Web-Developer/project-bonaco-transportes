@@ -7,7 +7,7 @@
     padding: 15px 18px 15px 18px;
     font-size: 22px;
     text-align: center;
-    color: #00349b;
+    color: #0042c7;
     cursor: pointer;
     border-radius: 50px;
     background-color: #fff;
@@ -40,7 +40,7 @@
     z-index: 2;
     top: 0;
     right: 0;
-    background-color: #00349b;
+    background-color: #0042c7;
     overflow-x: hidden;
     padding-top: 80px;
     transition: 0.5s;
