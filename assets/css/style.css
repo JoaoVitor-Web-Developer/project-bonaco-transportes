@@ -285,6 +285,7 @@ button.btnNav a {
 .tituloValor {
   font-size: 60px;
   color: #FFDF00;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .text {
@@ -455,6 +456,7 @@ label {
   font-size: 22px;
   font-weight: bold;
   color: #FFDF00;
+  text-shadow: 1px 1px 1px #000;
 }
 
 input {
