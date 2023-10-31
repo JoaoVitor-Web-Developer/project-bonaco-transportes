@@ -54,7 +54,7 @@ header {
   margin:-10px 0 0 80px;
   width: 350px; 
   height: auto;
-  filter: drop-shadow(2px 2px 1px #000000);
+  filter: drop-shadow(2px 1px 1px #000000);
 }
 
 .whatsapp-button {
